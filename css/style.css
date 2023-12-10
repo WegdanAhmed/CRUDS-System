@@ -1,0 +1,132 @@
+*{
+margin: 0;
+padding: 0;
+}
+body{
+    background-color: rgb(44, 44, 44);
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.cruds{
+    width: 80%;
+    margin: 1% 10%;
+}
+.head{
+    text-align: center;
+    text-transform: uppercase;
+}
+.inputs input{
+    width: 100%;
+    height: 45px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    margin: 0.5%;
+    padding: 0 1%;
+    background-color: rgb(21, 20, 20);
+    color: white;
+}
+.inputs input:focus{
+    background-color: rgb(10, 10, 10);
+    transform: scale(1.1);
+}
+.price input{
+    width: 20%;
+}
+#totalPrice{
+     background-color: rgb(173, 24, 24);
+     padding: 5px 2px;
+     border-radius: 2px;
+     border: none;
+}
+#totalPrice::before{
+    content: 'Total:';
+}
+.inputs button{
+    width: 90%;
+    margin: 0.5% 5%;
+    border: none;
+    outline: none;
+    background-color: hsl(120, 95%, 26%);
+    background-color: darkblue;
+    color: white;
+    padding: 0.5%;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+.inputs button:hover{
+    letter-spacing: 1px;
+    background-color: rgb(57, 141, 39) ;
+}
+
+.searchbox input{
+    width: 100%;
+    height: 45px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    margin: 0.5%;
+    padding: 0 1%;
+    background-color: rgb(21, 20, 20);
+    color: white;
+}
+.searchbox input:focus{
+    background-color: rgb(10, 10, 10);
+    transform: scale(1.1);
+}
+.btnsearch{
+    display: flex;
+}
+.searchbox button{
+    width: 40%;
+    border: none;
+    outline: none;
+    background-color: darkblue;
+    color: white;
+    padding: 0.5%;
+    margin: 0.5% 5%;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+.searchbox button:hover{
+    background-color:rgb(3, 3, 88) ;
+    letter-spacing: 1px;
+}
+
+.output table{
+    width: 100%;
+    text-align: center;
+    margin: 0.5% 0 ;
+}
+.output table{
+    text-transform: uppercase;
+}
+tbody button{
+    width: 80%;
+    background-color: darkblue;
+    color: white;
+    padding: 0.5%;
+    margin: 0.5% 5%;
+    border-radius: 20px;
+    transition: 0.5s;
+    border: none;
+    outline: none;
+}
+tbody button:hover{
+    background-color:rgb(3, 3, 88) ;
+}
+#btnDeleteAll button{
+    width: 90%;
+    margin: 0.5% 5%;
+    border: none;
+    outline: none;
+    background-color: darkblue;
+    color: white;
+    padding: 0.5%;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+#btnDeleteAll button:hover{
+    background-color:rgb(88, 3, 4) ;
+    letter-spacing: 1px;
+}
